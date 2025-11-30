@@ -1,0 +1,9 @@
+2025-11-30 19:40:26,871|INFO|main.py| Application started.
+2025-11-30 19:40:26,873|INFO|main.py| Starting data ingestion from GCS to local storage.
+2025-11-30 19:40:35,352|INFO|dataIngestFromGCS.py| Starting USER data ingestion.
+2025-11-30 19:40:37,159|INFO|dataIngestFromGCS.py| Completed USER data ingestion.
+2025-11-30 19:40:37,159|INFO|dataIngestFromGCS.py| Starting CONTENT data ingestion.
+2025-11-30 19:40:38,951|INFO|dataIngestFromGCS.py| Completed CONTENT data ingestion.
+2025-11-30 19:40:38,952|INFO|dataIngestFromGCS.py| Starting EVENTS data ingestion.
+2025-11-30 20:11:42,405|INFO|dataIngestFromGCS.py| Completed EVENTS data ingestion.
+2025-11-30 20:11:42,417|INFO|main.py| Data ingestion process completed.

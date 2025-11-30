@@ -1,0 +1,15 @@
+google-cloud-storage
+mysql-connector-python
+pymysql
+sqlalchemy
+pandas
+pyarrow
+fastparquet
+python-dotenv
+asyncio
+aiohttp
+tqdm
+pyyaml
+pytest
+psutil
+print
