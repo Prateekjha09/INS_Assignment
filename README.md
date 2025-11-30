@@ -17,6 +17,9 @@ This project demonstrates a **production‑style data engineering pipeline** for
 - **events** – user interactions with content (Opened, Shown, Front, Back, Shared).
 - **content** – news/content items.
 
+## Architecture:
+(![Data Pipeline](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/SystemDesignForDataPipeline.jpg))
+
 ### High‑level flow
 
 1. **Ingestion (Python)**  
@@ -44,28 +47,6 @@ Repository link: <https://github.com/Prateekjha09/INS_Assignment>
 
 ## 2. Repository Structure
 
-`INS_Assignment/
-├─ CheckLogs/
-│  └─ Logs_upto/
-├─ SQL_Scripts/
-│  └─ TableCreation/
-│     ├─ databricks/
-│     ├─ mySQL/
-│     └─ dataFiles/
-├─ config/
-│  └─ config.ini
-├─ notebooks/
-│  ├─ 1_Data_Understanding.ipynb
-│  ├─ 2_Table_Creation.ipynb
-│  ├─ 3_SQL_Queries.ipynb
-│  └─ 4_Retention_And_Churn_Analysis.ipynb
-├─ utils/
-│  ├─ configLoader.py
-│  ├─ dataIngestFromGCS.py
-│  └─ logging.py
-├─ main.py
-├─ requirements.txt
-└─ README.md`
 
 
 
@@ -381,6 +362,9 @@ Gold tables (`users`, `events`, `content`) are designed specifically to support 
   - user segmentation,
   - content recommendation.
 
+
+## A very simple Dashboard based on this dataset (more can be definitely explored):
+![alt text](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/SampleDashboardForUsersOnly.jpg)
 ---
 
 ## 12. Summary
