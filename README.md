@@ -18,7 +18,7 @@ This project demonstrates a **production‑style data engineering pipeline** for
 - **content** – news/content items.
 
 ## Architecture:
-(![Data Pipeline](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/SystemDesignForDataPipeline.jpg))
+![Data Pipeline](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/SystemDesignForDataPipeline.jpg)
 
 ### High‑level flow
 
@@ -46,7 +46,7 @@ Repository link: <https://github.com/Prateekjha09/INS_Assignment>
 ---
 
 ## 2. Repository Structure
-
+![](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/FileTree.jpg)
 
 
 
