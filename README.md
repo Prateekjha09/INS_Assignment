@@ -44,7 +44,7 @@ Repository link: <https://github.com/Prateekjha09/INS_Assignment>
 
 ## 2. Repository Structure
 
-INS_Assignment/
+`INS_Assignment/
 ├─ CheckLogs/
 │  └─ Logs_upto/
 ├─ SQL_Scripts/
@@ -65,7 +65,7 @@ INS_Assignment/
 │  └─ logging.py
 ├─ main.py
 ├─ requirements.txt
-└─ README.md
+└─ README.md`
 
 
 
