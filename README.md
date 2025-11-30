@@ -363,8 +363,11 @@ Gold tables (`users`, `events`, `content`) are designed specifically to support 
   - content recommendation.
 
 
-## A very simple Dashboard based on this dataset (more can be definitely explored):
+#### A very simple Dashboard based on this dataset (more can be definitely explored):
 ![alt text](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/SampleDashboardForUsersOnly.jpg)
+
+#### which is based on this relationship established as per my data understanding and in Power BI ofcourse:
+![alt text](https://github.com/Prateekjha09/INS_Assignment/blob/F1/PowerBI_Report/PowerBi_relationship.jpg)
 ---
 
 ## 12. Summary
