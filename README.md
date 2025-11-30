@@ -44,28 +44,28 @@ Repository link: <https://github.com/Prateekjha09/INS_Assignment>
 
 ## 2. Repository Structure
 
-NS_Assignment/
-├─ config/
-│ └─ config.ini # GCS (and optional MySQL) configuration
-├─ notebooks/ # Databricks notebooks (exported)
-│ ├─ 1_Data_Understanding.ipynb
-│ ├─ 2_Table_Creation.ipynb
-│ ├─ 3_SQL_Queries.ipynb
-│ └─ 4_Retention_And_Churn_Analysis.ipynb
-├─ SQL_Scripts/
-│ └─ TableCreation/
-│ ├─ databricks/ # Delta table DDL (silver / gold / staging)
-│ ├─ mySQL/ # Optional MySQL scripts
-│ └─ dataFiles/ # Helper / reference scripts
-├─ utils/
-│ ├─ configLoader.py # Central config loader (GCS, optional MySQL)
-│ ├─ dataIngestFromGCS.py # GCS → local Parquet ingestion
-│ └─ logging.py # Rotating file logger utility
+INS_Assignment/
 ├─ CheckLogs/
-│ └─ Logs_upto/ # Log files (created at runtime)
-├─ main.py # Entry point – runs ingestion pipeline
-├─ requirements.txt # Python dependencies
-└─ README.md # Project documentation
+│  └─ Logs_upto/
+├─ SQL_Scripts/
+│  └─ TableCreation/
+│     ├─ databricks/
+│     ├─ mySQL/
+│     └─ dataFiles/
+├─ config/
+│  └─ config.ini
+├─ notebooks/
+│  ├─ 1_Data_Understanding.ipynb
+│  ├─ 2_Table_Creation.ipynb
+│  ├─ 3_SQL_Queries.ipynb
+│  └─ 4_Retention_And_Churn_Analysis.ipynb
+├─ utils/
+│  ├─ configLoader.py
+│  ├─ dataIngestFromGCS.py
+│  └─ logging.py
+├─ main.py
+├─ requirements.txt
+└─ README.md
 
 
 
@@ -277,15 +277,16 @@ The central entry point is **`main.py`**.
 
 from utils.dataIngestFromGCS import ingestion_initialization
 
+
+#### Step 1: GCS → local Parquet
 def main():
-# Step 1: GCS → local Parquet
-if ingestion_initialization():
-print("Data ingestion completed successfully.")
-# Step 2 (optional): move local Parquet to another store / trigger Databricks jobs
+    if ingestion_initialization():
+    print("Data ingestion completed successfully.")
 
 if name == "main":
 main()
 
+#### Step 2 (optional): move local Parquet to another store / trigger Databricks jobs
 
 ### Steps to run
 
