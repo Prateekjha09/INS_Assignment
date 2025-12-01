@@ -128,35 +128,37 @@ Pipeline stages:
 ### 5.1 Clone the repository
 
 1) Configure your Git identity (run once)
-git config --global user.name "YourName"
-git config --global user.email "your_email@example.com"
+   git config --global user.name "YourName"
+   git config --global user.email "your_email@example.com"
 
 2) Clone repo
-cd path/to/your/workspace
-git clone https://github.com/Prateekjha09/INS_Assignment.git
-cd INS_Assignment
+   cd path/to/your/workspace
+   git clone https://github.com/Prateekjha09/INS_Assignment.git
+   cd INS_Assignment
 
 
 If you ever initialize from scratch and attach this remote:
 
-git init
-
-git remote add origin https://github.com/Prateekjha09/INS_Assignment.git
-
-git fetch
-
-git checkout main # or the default branch used in the repo
+   git init
+   
+   git remote add origin https://github.com/Prateekjha09/INS_Assignment.git
+   
+   git fetch
+   
+   git checkout main # or the default branch used in the repo
 
 
 ### 5.2 Create and activate virtual environment
 
 Windows
-python -m venv my_env
-my_env\Scripts\activate
+   python -m venv my_env
+   
+   my_env\Scripts\activate
 
 Linux / macOS
-python -m venv my_env
-source my_env/bin/activate
+   python -m venv my_env
+   
+   source my_env/bin/activate
 
 Install dependencies
 pip install -r requirements.txt
