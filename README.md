@@ -261,11 +261,11 @@ from utils.dataIngestFromGCS import ingestion_initialization
 
 #### Step 1: GCS → local Parquet
 def main():
-    if ingestion_initialization():
-    print("Data ingestion completed successfully.")
+    - if ingestion_initialization():
+    - print("Data ingestion completed successfully.")
 
-if name == "main":
-main()
+- if name == "main":
+- main()
 
 #### Step 2 (optional): move local Parquet to another store / trigger Databricks jobs
 
