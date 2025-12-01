@@ -140,8 +140,11 @@ cd INS_Assignment
 If you ever initialize from scratch and attach this remote:
 
 git init
+
 git remote add origin https://github.com/Prateekjha09/INS_Assignment.git
+
 git fetch
+
 git checkout main # or the default branch used in the repo
 
 
